@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div>
+            <h1>Generate a <span>random password</span></h1>
+        <p>Never use an insecure password again</p>
+        <div><label for="Password length">Set your password length: <input type="number" name="Password length" id="passwordLength" min="10" max="20" value="15"></label></div>
+        <div>
+            <label for="Allow symbols">Allow symbols? <input type="checkbox" name="Allow symbols" id="allowSymbols" checked></label>
+            <label for="Allow numbers">Allow numbers? <input type="checkbox" name="Allow numbers" id="allowNumbers" checked></label>
+        </div>
+        </div> 
+        <div><button id="generate-password-el">Generate passwords</button></div>
+        <hr>
+        <div>
+        <button id="password-1-el"></button>
+        <button id="password-2-el"></button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
