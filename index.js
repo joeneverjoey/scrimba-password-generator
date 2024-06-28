@@ -44,8 +44,8 @@ function randomNumber(array) {
     let randomNum = Math.floor(Math.random() * array.length)
     return randomNum
 }
-
-function copyPassword(text) {
+  //https://www.freecodecamp.org/news/copy-text-to-clipboard-javascript/
+async function copyPassword(text) {
     try {
       await navigator.clipboard.writeText(text);
       console.log('Content copied to clipboard');
